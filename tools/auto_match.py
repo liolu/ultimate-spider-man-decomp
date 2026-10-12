@@ -624,18 +624,36 @@ def integrate(found: list[tuple[str, int, int, str]]) -> list[Path]:
     return created
 
 
+PERMUTE_STATE = WORK / "permute_state.json"
+
+
 def permute_near(near: list[tuple[str, int, int, str]], count: int, minutes: float) -> list[tuple[str, int, int, str]]:
-    """Runs the permuter on the smallest near misses; returns the ones that reached a match."""
+    """Runs the permuter on near misses that were not tried yet; returns the ones that reached a match.
+    Every attempt is written to build/auto/permute_state.json (after each function, so an interruption loses nothing):
+    the next run goes on with the following functions. AUTO_PERMUTE_MAX = attempts per function (default 1),
+    AUTO_PERMUTE_RETRY=1 retries the ones that failed."""
+    try:
+        state = json.loads(PERMUTE_STATE.read_text(encoding="utf-8"))
+    except Exception:
+        state = {}
+    limit = 10**6 if os.environ.get("AUTO_PERMUTE_RETRY") else int(os.environ.get("AUTO_PERMUTE_MAX", "1"))
+    todo = [x for x in near if state.get(x[0], {}).get("attempts", 0) < limit]
+    print(f"  permuter: {len(near)} near misses, {len(near) - len(todo)} already tried, {len(todo)} left", flush=True)
     won = []
-    # Fewest differing instructions first: those are the ones the permuter can actually finish
+    # Least tried first, then fewest differing instructions: those are the ones the permuter can actually finish
     with tempfile.TemporaryDirectory() as tmp:
-        ranked = sorted(near, key=lambda x: (diff_count(Path(tmp), *x), x[1]))
+        ranked = sorted(todo, key=lambda x: (state.get(x[0], {}).get("attempts", 0), diff_count(Path(tmp), *x), x[1]))
     for name, size, addr, source in ranked[:count]:
         src = WORK / "near" / f"{name}.c"
-        r = subprocess.run([sys.executable, str(ROOT / "tools" / "permute.py"), name, "--source", str(src),
-                            "--minutes", str(minutes)], cwd=ROOT, capture_output=True, text=True)
+        subprocess.run([sys.executable, str(ROOT / "tools" / "permute.py"), name, "--source", str(src),
+                        "--minutes", str(minutes)], cwd=ROOT, capture_output=True, text=True)
         best = sorted((ROOT / "build" / "permuter" / name).glob("output-0-*"))
-        print(f"  {name}: {'MATCH' if best else 'no match'}")
+        print(f"  {name}: {'MATCH' if best else 'no match'}", flush=True)
+        st = state.setdefault(name, {"attempts": 0})
+        st["attempts"] += 1
+        st["minutes"] = st.get("minutes", 0) + minutes
+        st["result"] = "match" if best else "no match"
+        PERMUTE_STATE.write_text(json.dumps(state), encoding="utf-8")
         if best:
             # The permuter output is preprocessed and self-contained
             won.append((name, size, addr, (best[0] / "source.c").read_text(encoding="utf-8")))
