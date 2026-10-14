@@ -11,11 +11,11 @@ void func_0200f378(M2C_UNK arg0, void *arg1) {
     }
     temp_r1 = M2C_FIELD(arg1, s32 *, 4);
     switch (temp_r1) {                              /* irregular */
-    case 0:
-        func_0200f22c(arg0, 1);
-        return;
-    case 1:
-        func_0200f22c(arg0, 0);
-        return;
+        case 0:
+            func_0200f22c(arg0, 1);
+            return;
+        case 1:
+            func_0200f22c(arg0, 0);
+            return;
     }
 }

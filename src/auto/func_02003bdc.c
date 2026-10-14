@@ -11,7 +11,7 @@ s32 func_02003bdc(void *arg0) {
     s32 var_r5;
 
     temp_r0 = M2C_FIELD(arg0, volatile s32 *, 0x1B8);
-    var_r5 = 0;
+    var_r5  = 0;
     if (temp_r0 <= 0xE) {
         if (temp_r0 < 0xE) {
             if ((temp_r0 <= 6) && (temp_r0 >= 3)) {
@@ -25,7 +25,7 @@ s32 func_02003bdc(void *arg0) {
             goto block_9;
         }
     } else if (temp_r0 == 0x12) {
-block_9:
+    block_9:
         var_r5 = 1;
     }
     if (var_r5 == 0) {

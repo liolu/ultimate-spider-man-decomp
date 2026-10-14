@@ -11,8 +11,8 @@ s32 func_0205d288(M2C_UNK arg0, M2C_UNK arg1, M2C_UNK arg2, s32 arg3) {
     void *var_r2;
 
     data_02146178 = arg3;
-    temp_ip = *data_0214617c;
-    temp_r2 = M2C_FIELD(temp_ip, s32 *, 4);
+    temp_ip       = *data_0214617c;
+    temp_r2       = M2C_FIELD(temp_ip, s32 *, 4);
     if (temp_r2 != 0) {
         var_r2 = temp_ip + temp_r2;
     } else {

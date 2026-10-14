@@ -10,14 +10,14 @@ void func_0208badc(void *arg0) {
 
     temp_r1 = M2C_FIELD(arg0, s32 *, 8);
     switch (temp_r1) {                              /* irregular */
-    case 2:
-        func_0208bd40(arg0);
-        return;
-    case 4:
-        func_0208bcf8(arg0);
-        return;
-    case 6:
-        func_0208bcd4(arg0);
-        return;
+        case 2:
+            func_0208bd40(arg0);
+            return;
+        case 4:
+            func_0208bcf8(arg0);
+            return;
+        case 6:
+            func_0208bcd4(arg0);
+            return;
     }
 }

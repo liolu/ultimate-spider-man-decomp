@@ -4,10 +4,10 @@
 s32 func_0209486c(void) {
     u16 *var_r0;
 
-    if (*(u16 *)0x027FFC10 == 0) {
-        var_r0 = (u16 *)0x027FF814;
+    if (*(u16 *) 0x027FFC10 == 0) {
+        var_r0 = (u16 *) 0x027FF814;
     } else {
-        var_r0 = (u16 *)0x027FFC14;
+        var_r0 = (u16 *) 0x027FFC14;
     }
     if (*var_r0 == 1) {
         return 1;

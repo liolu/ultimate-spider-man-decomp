@@ -16,6 +16,6 @@ void func_02086cc0(s32 arg0, u16 *arg1, M2C_UNK arg2) {
         var_r4 = var_r0 & ~3;
     }
     func_020935e8(var_r0);
-    func_02093574(((s8 *)arg1 + 4), arg2, var_r4);
+    func_02093574(((s8 *) arg1 + 4), arg2, var_r4);
     func_0209351c();
 }

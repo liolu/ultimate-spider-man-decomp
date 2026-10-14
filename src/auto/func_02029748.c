@@ -18,7 +18,8 @@ void func_02029748(s32 arg0, void *arg1, s32 arg2) {
     } else {
         var_r5 = M2C_FIELD(func_02066298(arg1, &data_02100ec8, 0, 1), s32 *, 4);
     }
-    temp_r4 = M2C_FIELD(func_02066298(M2C_FIELD(M2C_FIELD(arg1, void **, 0x10), void **, 0x10), &data_02100ec8, 0, 1), s32 *, 4);
+    temp_r4 =
+        M2C_FIELD(func_02066298(M2C_FIELD(M2C_FIELD(arg1, void **, 0x10), void **, 0x10), &data_02100ec8, 0, 1), s32 *, 4);
     temp_r4_2 = func_0206bc94(0, temp_r4, func_0206570c(temp_r4));
     func_0206bc94(temp_r4_2, var_r5, func_0206570c(var_r5));
 }

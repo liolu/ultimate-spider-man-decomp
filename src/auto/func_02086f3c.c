@@ -16,14 +16,14 @@ void func_02086f3c(void *arg0) {
     }
     temp_r0 = func_020870d0(arg0);
     if (M2C_FIELD(temp_r0, u8 *, 0xB) != 0) {
-        temp_r0_2 = M2C_FIELD(arg0, void ***, 0x14);
-        M2C_FIELD(arg0, s32 *, 0x1C) = M2C_FIELD(*temp_r0_2, s32 (**)(void **, void *), 8)(temp_r0_2, temp_r0);
+        temp_r0_2                    = M2C_FIELD(arg0, void ***, 0x14);
+        M2C_FIELD(arg0, s32 *, 0x1C) = M2C_FIELD(*temp_r0_2, s32(**)(void **, void *), 8)(temp_r0_2, temp_r0);
         M2C_FIELD(arg0, s32 *, 0x28) = (s32) M2C_FIELD(temp_r0, s32 *, 0);
         M2C_FIELD(arg0, s32 *, 0x2C) = (s32) M2C_FIELD(temp_r0, s32 *, 4);
     }
     if (M2C_FIELD(arg0, s32 *, 0x1C) != 0) {
         temp_r0_3 = M2C_FIELD(arg0, void ***, 0x14);
-        if (M2C_FIELD(*temp_r0_3, s32 (**)(void **, void *), 8)(temp_r0_3, temp_r0) != 0) {
+        if (M2C_FIELD(*temp_r0_3, s32(**)(void **, void *), 8)(temp_r0_3, temp_r0) != 0) {
             var_r1 = M2C_FIELD(temp_r0, s32 *, 0) - M2C_FIELD(arg0, s32 *, 0x28);
             if (var_r1 < 0) {
                 var_r1 = 0 - var_r1;
@@ -37,7 +37,7 @@ void func_02086f3c(void *arg0) {
                     goto block_12;
                 }
             } else {
-block_12:
+            block_12:
                 func_02087114(arg0, 0);
                 M2C_FIELD(arg0, s32 *, 0x28) = (s32) M2C_FIELD(temp_r0, s32 *, 0);
                 M2C_FIELD(arg0, s32 *, 0x2C) = (s32) M2C_FIELD(temp_r0, s32 *, 4);

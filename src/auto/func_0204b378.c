@@ -23,9 +23,9 @@ void *func_0204b378(void *arg0, M2C_UNK arg1, M2C_UNK arg2, s32 arg3) {
 
     func_0202f5a0(arg0, 1);
     M2C_FIELD(arg0, M2C_UNK **, 0) = &data_02108348;
-    M2C_FIELD(arg0, s32 *, 0x18) = 0;
-    M2C_FIELD(arg0, s32 *, 0x1C) = 0;
-    M2C_FIELD(arg0, s32 *, 0x20) = 0;
+    M2C_FIELD(arg0, s32 *, 0x18)   = 0;
+    M2C_FIELD(arg0, s32 *, 0x1C)   = 0;
+    M2C_FIELD(arg0, s32 *, 0x20)   = 0;
     func_0202f64c(arg0);
     var_r1 = func_02064fc8(4);
     if (var_r1 != 0) {
@@ -37,7 +37,7 @@ void *func_0204b378(void *arg0, M2C_UNK arg1, M2C_UNK arg2, s32 arg3) {
         var_r4 = func_0204f6f8(var_r4, arg1, func_0202f66c());
     }
     func_0202f358(arg0, var_r4, 1);
-    temp_r0 = func_02064fc8(0x18);
+    temp_r0  = func_02064fc8(0x18);
     var_r1_2 = temp_r0;
     if (var_r1_2 != 0) {
         var_r1_2 = func_0205047c(temp_r0, &data_0210818c, &data_020bb658, 1);

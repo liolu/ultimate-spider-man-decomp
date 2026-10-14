@@ -20,14 +20,14 @@ void func_0204b0f4(void *arg0, M2C_UNK arg1) {
     var_r4 = func_02064fc8(0x28);
     if (var_r4 != 0) {
         temp_r0 = func_02064fc8(0x40);
-        var_r1 = temp_r0;
+        var_r1  = temp_r0;
         if (var_r1 != 0) {
             var_r1 = func_02024c20(temp_r0, &data_0213aeb8, arg1);
         }
         var_r4 = func_020556d8(var_r4, var_r1, &data_020bb5f8);
     }
     M2C_FIELD(arg0, s32 *, 0x18) = var_r4;
-    var_r0 = func_02064fc8(0x50);
+    var_r0                       = func_02064fc8(0x50);
     if (var_r0 != 0) {
         var_r0 = func_0205947c(var_r0, arg1);
     }

@@ -7,7 +7,7 @@ extern M2C_UNK data_0213d440;
 void func_020255fc(void *arg0) {
     s32 temp_r2;
 
-    temp_r2 = *((M2C_UNK *)((s8 *)&data_0213d440 + (M2C_FIELD(arg0, s32 *, 0x128) * 4)));
+    temp_r2 = *((M2C_UNK *) ((s8 *) &data_0213d440 + (M2C_FIELD(arg0, s32 *, 0x128) * 4)));
     if (temp_r2 == M2C_FIELD(arg0, s32 *, 0x130)) {
         return;
     }

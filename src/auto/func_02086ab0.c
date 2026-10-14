@@ -7,7 +7,7 @@ extern M2C_UNK data_0211cb84;
 extern s32 data_02150c24;
 
 M2C_UNK **func_02086ab0(M2C_UNK **arg0) {
-    *arg0 = &data_0211cb84;
+    *arg0         = &data_0211cb84;
     data_02150c24 = 0;
     func_0202f0d8(arg0);
     func_0209ab0c(arg0);

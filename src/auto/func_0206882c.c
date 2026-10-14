@@ -15,14 +15,14 @@ void *func_0206882c(void *arg0, M2C_UNK arg1, M2C_UNK arg2, M2C_UNK arg3, s32 ar
 
     M2C_FIELD(arg0, M2C_UNK **, 0) = &data_020efa10;
     M2C_FIELD(arg0, M2C_UNK **, 0) = &data_0211ab58;
-    M2C_FIELD(arg0, s32 *, 4) = 0;
-    M2C_FIELD(arg0, s32 *, 8) = arg5;
-    M2C_FIELD(arg0, s32 *, 0xC) = arg4;
+    M2C_FIELD(arg0, s32 *, 4)      = 0;
+    M2C_FIELD(arg0, s32 *, 8)      = arg5;
+    M2C_FIELD(arg0, s32 *, 0xC)    = arg4;
     M2C_FIELD(arg0, void **, 0x10) = NULL;
-    var_r5 = func_02064fc8(0x28);
+    var_r5                         = func_02064fc8(0x28);
     if (var_r5 != NULL) {
         temp_r0 = func_02064fc8(0x40);
-        var_r1 = temp_r0;
+        var_r1  = temp_r0;
         if (var_r1 != NULL) {
             var_r1 = func_02024c20(temp_r0, arg1, arg2);
         }

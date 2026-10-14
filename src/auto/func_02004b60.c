@@ -16,5 +16,5 @@ void func_02004b60(void *arg0) {
     if ((M2C_FIELD(temp_r2, u8 *, 0x97) == 0) && (M2C_FIELD(temp_r2, u8 *, 0x96) == 0)) {
         return;
     }
-    M2C_FIELD(M2C_FIELD(arg0, void **, 0), M2C_UNK (**)(), 0x108)(arg0);
+    M2C_FIELD(M2C_FIELD(arg0, void **, 0), M2C_UNK(**)(), 0x108)(arg0);
 }

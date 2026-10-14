@@ -16,7 +16,7 @@ u32 func_02001068(void *arg0, void *arg1) {
     if (temp_r0_3 == 0) {
         return temp_r0_3;
     }
-    temp_r1 = M2C_FIELD(arg1, s32 *, 0x4C);
+    temp_r1   = M2C_FIELD(arg1, s32 *, 0x4C);
     temp_r0_2 = M2C_FIELD(arg0, s32 *, 0x4C);
     if (temp_r0_2 < temp_r1) {
         temp_r2 = M2C_FIELD(arg0, void **, 0xA4);
@@ -30,7 +30,7 @@ u32 func_02001068(void *arg0, void *arg1) {
         return (u32) temp_r0_2;
     }
     temp_r1_2 = M2C_FIELD(arg0, void **, 0xA4);
-    temp_r0 = M2C_FIELD(temp_r1_2, s32 *, 0x10);
+    temp_r0   = M2C_FIELD(temp_r1_2, s32 *, 0x10);
     if (temp_r0 >= 0xB3) {
         return (u32) temp_r0;
     }

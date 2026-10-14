@@ -12,12 +12,12 @@ void func_0209d24c(void *arg0) {
         func_0209bf90(&data_02154ff8, 0);
         data_02154ff4 = 1;
     }
-    M2C_FIELD(arg0, M2C_UNK **, 8) = &func_0209ccd4;
-    M2C_FIELD(arg0, void **, 0xC) = arg0;
+    M2C_FIELD(arg0, M2C_UNK **, 8)    = &func_0209ccd4;
+    M2C_FIELD(arg0, void **, 0xC)     = arg0;
     M2C_FIELD(arg0, M2C_UNK **, 0x14) = &func_0209cc5c;
-    M2C_FIELD(arg0, void **, 0x18) = arg0;
-    M2C_FIELD(arg0, s32 *, 0x44) = 0;
-    M2C_FIELD(arg0, s32 *, 0x48) = 0;
-    M2C_FIELD(arg0, s32 *, 0x24) = (s32) (M2C_FIELD(arg0, s32 *, 0x24) & ~1);
-    M2C_FIELD(arg0, s32 *, 0x24) = (s32) (M2C_FIELD(arg0, s32 *, 0x24) & ~2);
+    M2C_FIELD(arg0, void **, 0x18)    = arg0;
+    M2C_FIELD(arg0, s32 *, 0x44)      = 0;
+    M2C_FIELD(arg0, s32 *, 0x48)      = 0;
+    M2C_FIELD(arg0, s32 *, 0x24)      = (s32) (M2C_FIELD(arg0, s32 *, 0x24) & ~1);
+    M2C_FIELD(arg0, s32 *, 0x24)      = (s32) (M2C_FIELD(arg0, s32 *, 0x24) & ~2);
 }

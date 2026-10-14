@@ -10,7 +10,7 @@ void func_020521e8(M2C_UNK arg0) {
     s32 var_r1;
 
     temp_r0 = func_02064fc8(0x30);
-    var_r1 = temp_r0;
+    var_r1  = temp_r0;
     if (var_r1 != 0) {
         var_r1 = func_02026154(temp_r0, 0);
     }

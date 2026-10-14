@@ -13,6 +13,6 @@ s32 func_0209da74(s32 *arg0) {
         return 0;
     }
     func_0209db04();
-    func_0209bee4(((s8 *)arg0 + 4), temp_r0);
+    func_0209bee4(((s8 *) arg0 + 4), temp_r0);
     return 1;
 }

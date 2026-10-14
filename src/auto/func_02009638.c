@@ -8,5 +8,5 @@ void func_02009638(void *arg0) {
         func_02058724(arg0, 1);
         return;
     }
-    M2C_FIELD(M2C_FIELD(arg0, void **, 0), M2C_UNK (**)(), 0x108)(arg0);
+    M2C_FIELD(M2C_FIELD(arg0, void **, 0), M2C_UNK(**)(), 0x108)(arg0);
 }

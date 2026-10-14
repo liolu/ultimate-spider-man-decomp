@@ -13,7 +13,7 @@ s32 func_0203418c(s32 arg0, void *arg1, M2C_UNK arg2) {
     var_r4 = func_02064fc8(0xD0);
     if (var_r4 != 0) {
         temp_r0 = func_02064fc8(0x40);
-        var_r1 = temp_r0;
+        var_r1  = temp_r0;
         if (var_r1 != 0) {
             var_r1 = func_02024c20(temp_r0, M2C_FIELD(arg1, s32 *, 0), 0);
         }

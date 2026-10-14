@@ -13,7 +13,7 @@ s32 func_020120e4(s32 arg0) {
     if (func_02011804() != 0) {
         func_02011ee8(arg0);
     }
-    temp_r1 = data_0213b31c - 1;
+    temp_r1       = data_0213b31c - 1;
     data_0213b31c = temp_r1;
     if (temp_r1 == 0) {
         func_0205c980(&func_02012178);

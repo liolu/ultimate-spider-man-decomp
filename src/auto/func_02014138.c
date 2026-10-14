@@ -15,7 +15,7 @@ void func_02014138(M2C_UNK arg0, void *arg1) {
     func_02013e64(arg0, 1);
     func_01ffb558(2);
     temp_r0 = func_02064fc8(0x24);
-    var_r1 = temp_r0;
+    var_r1  = temp_r0;
     if (var_r1 != 0) {
         var_r1 = func_0204b378(temp_r0, M2C_FIELD(arg1, s32 *, 0), 1, 0);
     }

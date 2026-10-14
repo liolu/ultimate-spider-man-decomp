@@ -13,7 +13,7 @@ void func_02035d98(void *arg0) {
     s32 temp_r0;
 
     M2C_FIELD(arg0, s32 *, 0x194) = 8;
-    temp_r0 = func_0202718c(arg0 + 0x190);
+    temp_r0                       = func_0202718c(arg0 + 0x190);
     func_02036afc(arg0, temp_r0, 1, 0);
     func_020369e8(arg0, temp_r0, 0);
     func_02036a3c(arg0, 9, 0);

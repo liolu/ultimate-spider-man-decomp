@@ -17,8 +17,8 @@ void func_020943b4(void) {
     temp_r4 = *data_02151bcc;
     func_02094c9c(temp_r4);
     func_02094698(temp_r4);
-    *((M2C_UNK *)((s8 *)&data_02151bec + (M2C_FIELD(temp_r4, s32 *, 0x6C) * 4))) = 0;
-    M2C_FIELD(temp_r4, s32 *, 0x64) = 2;
+    *((M2C_UNK *) ((s8 *) &data_02151bec + (M2C_FIELD(temp_r4, s32 *, 0x6C) * 4))) = 0;
+    M2C_FIELD(temp_r4, s32 *, 0x64)                                                = 2;
     func_020942d8(temp_r4 + 0x90);
     func_02094198();
     func_02095688();

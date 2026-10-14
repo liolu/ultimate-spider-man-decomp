@@ -14,7 +14,7 @@ void func_0207f094(s32 arg0) {
 
     temp_r0 = func_02064fbc(0x24);
     temp_r4 = temp_r0;
-    sp0 = 1;
+    sp0     = 1;
     func_02065440(temp_r0, &sp0, 4);
     func_02065440(temp_r4 + 4, arg0 + 0x614, 0x20);
     func_0208bba8(func_0208bfbc(), temp_r4, 0x24, 3);

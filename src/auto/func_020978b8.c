@@ -31,7 +31,7 @@ s32 func_020978b8(void) {
     }
     func_02094e68(temp_r1_2 + 0x190, 2);
     temp_r1_3 = M2C_FIELD(temp_r4, void **, 4);
-    temp_r5 = M2C_FIELD(temp_r1_3, u16 *, 0x190);
+    temp_r5   = M2C_FIELD(temp_r1_3, u16 *, 0x190);
     if (var_r5 != 1) {
         return ((temp_r5 + 0x51) & ~0x1F) * 2;
     }

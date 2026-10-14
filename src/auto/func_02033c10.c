@@ -8,5 +8,5 @@ void func_02033c10(void **arg0, void *arg1) {
     if (M2C_FIELD(arg1, s32 *, 4) != 9) {
         return;
     }
-    M2C_FIELD(*arg0, M2C_UNK (**)(), 0x24)(arg0);
+    M2C_FIELD(*arg0, M2C_UNK(**)(), 0x24)(arg0);
 }

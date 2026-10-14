@@ -9,20 +9,20 @@ extern s32 data_021483a8;
 
 void func_020703e0(s32 arg0, s32 arg1, s32 arg2, s32 arg3) {
     switch (arg3) {                                 /* irregular */
-    case 0:
-        data_021483a0 = arg0;
-        data_0214839c = arg2;
-        break;
-    case 1:
-        data_02148394 = arg0;
-        data_021483a8 = arg2;
-        break;
-    case 2:
-        data_021483a0 = arg0;
-        data_0214839c = arg2;
-        data_02148394 = arg0;
-        data_021483a8 = arg2;
-        break;
+        case 0:
+            data_021483a0 = arg0;
+            data_0214839c = arg2;
+            break;
+        case 1:
+            data_02148394 = arg0;
+            data_021483a8 = arg2;
+            break;
+        case 2:
+            data_021483a0 = arg0;
+            data_0214839c = arg2;
+            data_02148394 = arg0;
+            data_021483a8 = arg2;
+            break;
     }
     if (arg1 != 0) {
         return;

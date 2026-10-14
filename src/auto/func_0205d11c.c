@@ -11,8 +11,8 @@ s32 func_0205d11c(M2C_UNK arg0, M2C_UNK arg1, s32 arg2) {
     void *var_r1;
 
     data_02146178 = arg2;
-    temp_r3 = *data_0214617c;
-    temp_r1 = M2C_FIELD(temp_r3, s32 *, 4);
+    temp_r3       = *data_0214617c;
+    temp_r1       = M2C_FIELD(temp_r3, s32 *, 4);
     if (temp_r1 != 0) {
         var_r1 = temp_r3 + temp_r1;
     } else {

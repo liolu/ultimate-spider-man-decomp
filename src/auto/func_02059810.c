@@ -15,22 +15,22 @@ void func_02059810(void *arg0, void *arg1) {
     }
     temp_r1 = M2C_FIELD(arg1, s32 *, 4);
     switch (temp_r1) {                              /* irregular */
-    case 0:
-        temp_r4 = M2C_FIELD(arg0, u8 *, 0x14);
-        if (temp_r4 != 0) {
+        case 0:
+            temp_r4 = M2C_FIELD(arg0, u8 *, 0x14);
+            if (temp_r4 != 0) {
+                return;
+            }
+            func_02059628(arg0, func_02028fb4(M2C_FIELD(arg1, s32 ***, 8)), temp_r4);
             return;
-        }
-        func_02059628(arg0, func_02028fb4(M2C_FIELD(arg1, s32 ***, 8)), temp_r4);
-        return;
-    case 1:
-        temp_r4_2 = M2C_FIELD(arg0, u8 *, 0x14);
-        if (temp_r4_2 == 0) {
+        case 1:
+            temp_r4_2 = M2C_FIELD(arg0, u8 *, 0x14);
+            if (temp_r4_2 == 0) {
+                return;
+            }
+            func_02059628(arg0, func_02028fb4(M2C_FIELD(arg1, s32 ***, 8)), temp_r4_2);
             return;
-        }
-        func_02059628(arg0, func_02028fb4(M2C_FIELD(arg1, s32 ***, 8)), temp_r4_2);
-        return;
-    case 2:
-        **M2C_FIELD(arg1, s32 ***, 8) = func_0205953c(arg0);
-        return;
+        case 2:
+            **M2C_FIELD(arg1, s32 ***, 8) = func_0205953c(arg0);
+            return;
     }
 }

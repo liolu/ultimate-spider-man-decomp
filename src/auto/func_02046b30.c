@@ -9,7 +9,7 @@ void func_02046b30(void *arg0, s32 arg1) {
 
     M2C_FIELD(arg0, s32 *, 0x20) = (s32) M2C_FIELD(arg0, s32 *, 0x1C);
     M2C_FIELD(arg0, s32 *, 0x1C) = arg1;
-    temp_r0 = M2C_FIELD(arg0, s32 *, 0x20);
+    temp_r0                      = M2C_FIELD(arg0, s32 *, 0x20);
     if (temp_r0 != 0) {
         func_02013b18(temp_r0, M2C_FIELD(arg0, u8 *, 0x28));
     }

@@ -11,12 +11,12 @@ void func_02051154(void *arg0, s32 *arg1, M2C_UNK arg2, M2C_UNK arg3) {
 
     temp_ip = *arg1;
     switch (temp_ip) {                              /* irregular */
-    case 0x1AF:
-        func_0208580c(M2C_FIELD(M2C_FIELD(arg0, void **, 0x164), s32 *, 0xBC), &data_02120748, 0, 0);
-        break;
-    case 0x1B1:
-        func_0208580c(M2C_FIELD(M2C_FIELD(arg0, void **, 0x164), s32 *, 0xBC), &data_02120760, 0, 0);
-        break;
+        case 0x1AF:
+            func_0208580c(M2C_FIELD(M2C_FIELD(arg0, void **, 0x164), s32 *, 0xBC), &data_02120748, 0, 0);
+            break;
+        case 0x1B1:
+            func_0208580c(M2C_FIELD(M2C_FIELD(arg0, void **, 0x164), s32 *, 0xBC), &data_02120760, 0, 0);
+            break;
     }
     func_02005d54(arg0, arg1, arg2, arg3);
 }

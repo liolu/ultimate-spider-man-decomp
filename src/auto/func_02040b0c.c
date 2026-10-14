@@ -5,5 +5,5 @@ void func_02040b0c(void *arg0) {
     if (M2C_FIELD(M2C_FIELD(arg0, void **, 0xBC), u8 *, 0x97) == 0) {
         return;
     }
-    M2C_FIELD(M2C_FIELD(arg0, void **, 0), M2C_UNK (**)(), 0xF8)(arg0);
+    M2C_FIELD(M2C_FIELD(arg0, void **, 0), M2C_UNK(**)(), 0xF8)(arg0);
 }

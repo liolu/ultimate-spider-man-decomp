@@ -10,6 +10,6 @@ void func_0203de8c(void *arg0) {
     func_02036b68(arg0, 0x83, 1, 0);
     func_01ffc0d4(arg0, &data_020b5320, 0);
     func_01ffc080(arg0, &data_020b5320, 0);
-    M2C_FIELD(arg0, s32 *, 0x30) = 0;
+    M2C_FIELD(arg0, s32 *, 0x30)  = 0;
     M2C_FIELD(arg0, s32 *, 0x194) = 0x2F;
 }

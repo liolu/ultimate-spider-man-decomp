@@ -21,7 +21,7 @@ s32 func_02094974(void) {
         } else {
             var_r2 = temp_r4 | 0x80000000;
         }
-        data_0213b030 = var_r2 | *(u16 *)0x027FFFFA;
+        data_0213b030 = var_r2 | *(u16 *) 0x027FFFFA;
     }
     return data_0213b030;
 }

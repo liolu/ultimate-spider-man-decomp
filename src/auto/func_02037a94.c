@@ -12,7 +12,7 @@ void func_02037a94(void *arg0) {
     void *temp_r0;
 
     M2C_FIELD(arg0, s32 *, 0x30) = 0;
-    temp_r0 = func_0202718c(arg0 + 0x190, 0x13);
+    temp_r0                      = func_0202718c(arg0 + 0x190, 0x13);
     func_02036afc(arg0, temp_r0, 0, 0);
     func_02038460(arg0, M2C_FIELD(temp_r0, s32 *, 0x10));
     M2C_FIELD(arg0, s32 *, 0x1B0) = (s32) (func_01ffbcb8(arg0) + 0xC);

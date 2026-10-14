@@ -7,7 +7,8 @@ s32 func_020781f0(void *arg0, void *arg1, s32 arg2) {
     if (func_020780cc() == 0) {
         return 0;
     }
-    if ((M2C_FIELD(arg0, u8 *, 0xA) == 0) && ((M2C_FIELD(arg1, u8 *, 0xA) != 0) || ((s32) (M2C_FIELD(arg1, s32 *, 4) - arg2) > (s32) M2C_FIELD(arg0, s32 *, 4)))) {
+    if ((M2C_FIELD(arg0, u8 *, 0xA) == 0) &&
+        ((M2C_FIELD(arg1, u8 *, 0xA) != 0) || ((s32) (M2C_FIELD(arg1, s32 *, 4) - arg2) > (s32) M2C_FIELD(arg0, s32 *, 4)))) {
         return 1;
     }
     return 0;

@@ -17,7 +17,8 @@ s32 func_02097f10(M2C_UNK arg0) {
     }
     func_020973f4(3, arg0);
     temp_r0_2 = func_02097290();
-    var_r0 = func_020972a0(3, 3, M2C_FIELD(temp_r0_2, s32 *, 0), M2C_FIELD(temp_r0_2, s32 *, 4), M2C_FIELD(temp_r0_2, s32 *, 0x10));
+    var_r0 =
+        func_020972a0(3, 3, M2C_FIELD(temp_r0_2, s32 *, 0), M2C_FIELD(temp_r0_2, s32 *, 4), M2C_FIELD(temp_r0_2, s32 *, 0x10));
     if (var_r0 == 0) {
         var_r0 = 2;
     }

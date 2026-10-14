@@ -25,13 +25,13 @@ void func_0201076c(void *arg0) {
         return;
     }
     temp_r0 = M2C_FIELD(arg0, void **, 0xA4);
-    var_r1 = M2C_FIELD(temp_r0, s32 *, 0x28);
+    var_r1  = M2C_FIELD(temp_r0, s32 *, 0x28);
     if (var_r1 >= 0) {
         var_r1 = 0;
     }
     func_02000e5c(temp_r0 + 0x1C, var_r1);
     temp_r0_2 = M2C_FIELD(arg0, void **, 0xA4);
-    var_r1_2 = M2C_FIELD(temp_r0_2, s32 *, 0x30);
+    var_r1_2  = M2C_FIELD(temp_r0_2, s32 *, 0x30);
     if (var_r1_2 >= 0) {
         var_r1_2 = 0;
     }

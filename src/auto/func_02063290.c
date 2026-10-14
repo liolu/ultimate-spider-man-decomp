@@ -9,8 +9,8 @@ void func_02063290(void *arg0) {
 
     M2C_FIELD(arg0, s32 *, 0) = 0x7FFFFFFF;
     M2C_FIELD(arg0, s32 *, 4) = 0x7FFFFFFF;
-    var_r4 = arg0 + 8;
-    var_r5 = 0;
+    var_r4                    = arg0 + 8;
+    var_r5                    = 0;
     do {
         func_020632d0(var_r4);
         var_r5 += 1;

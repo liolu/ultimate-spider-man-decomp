@@ -13,7 +13,8 @@ void func_02067f68(void *arg0) {
     var_r0 = func_02064fc8(0x14);
     if (var_r0 != 0) {
         temp_ip = M2C_FIELD(arg0, void **, 4);
-        var_r0 = func_0206882c(var_r0, &data_02150f74, 1, &data_020d6634, M2C_FIELD(temp_ip, s32 *, 4), M2C_FIELD(temp_ip, s32 *, 8));
+        var_r0  = func_0206882c(var_r0, &data_02150f74, 1, &data_020d6634, M2C_FIELD(temp_ip, s32 *, 4),
+                                M2C_FIELD(temp_ip, s32 *, 8));
     }
     M2C_FIELD(arg0, s32 *, 0x14) = var_r0;
 }

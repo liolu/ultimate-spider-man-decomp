@@ -16,7 +16,7 @@ void func_0208052c(void) {
 
     temp_r0 = func_02064fbc(0x3C);
     temp_r4 = temp_r0;
-    sp0 = 2;
+    sp0     = 2;
     func_02065440(temp_r0, &sp0, 4);
     func_02065440(temp_r4 + 4, func_020822e0(&data_02150bb8), 0x38);
     func_0208bb3c(func_0208bfbc(), temp_r4, 0x3C, 1);

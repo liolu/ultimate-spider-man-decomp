@@ -8,7 +8,7 @@ M2C_UNK func_020a0578(s32);                         /* extern */
 void func_0208dca8(void) {
     s32 temp_r0;
 
-    temp_r0 = (s32) (*(u16 *)0x027FFFA8 & 0x8000) >> 0xF;
+    temp_r0 = (s32) (*(u16 *) 0x027FFFA8 & 0x8000) >> 0xF;
     if (temp_r0 != 0) {
         func_020a0578(temp_r0);
     }

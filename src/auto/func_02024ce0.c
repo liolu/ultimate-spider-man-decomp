@@ -11,7 +11,7 @@ void func_02024ce0(s32 arg0, s32 arg1, u32 arg2) {
 
     sp0 = 0;
     func_02024d44(&sp0, arg1, (0x1FFFFF & (arg2 >> 2)) | 0x05000000);
-    *((M2C_UNK *)((s8 *)&data_0213d408 + (arg0 * 4))) = arg1;
-    func_02024d50(*((M2C_UNK *)((s8 *)&data_0213d408 + (arg0 * 4))), arg2);
-    *((M2C_UNK *)((s8 *)&data_0213d3f4 + (arg0 * 4))) = arg2;
+    *((M2C_UNK *) ((s8 *) &data_0213d408 + (arg0 * 4))) = arg1;
+    func_02024d50(*((M2C_UNK *) ((s8 *) &data_0213d408 + (arg0 * 4))), arg2);
+    *((M2C_UNK *) ((s8 *) &data_0213d3f4 + (arg0 * 4))) = arg2;
 }

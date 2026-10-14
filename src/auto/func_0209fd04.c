@@ -16,8 +16,8 @@ void func_0209fd04(void) {
     func_02096244();
     M2C_FIELD(&data_02155f14, s16 *, 0x32) = 0;
     M2C_FIELD(&data_02155f14, s16 *, 0x36) = 0;
-    M2C_FIELD(&data_02155f14, s16 *, 0xC) = 0;
-    M2C_FIELD(&data_02155f14, s32 *, 0) = 0;
+    M2C_FIELD(&data_02155f14, s16 *, 0xC)  = 0;
+    M2C_FIELD(&data_02155f14, s32 *, 0)    = 0;
     M2C_FIELD(&data_02155f14, s32 *, 0x10) = 0;
     M2C_FIELD(&data_02155f14, s16 *, 0x30) = 0;
     M2C_FIELD(&data_02155f14, s16 *, 0x34) = 0;

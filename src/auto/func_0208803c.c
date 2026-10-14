@@ -9,9 +9,10 @@ void func_0208803c(void *arg0, s32 arg1) {
     void *temp_r3;
 
     temp_r3 = M2C_FIELD(arg0, void **, 0x5F0);
-    var_r2 = 0;
+    var_r2  = 0;
     if (arg1 == 1) {
         var_r2 = 1;
     }
-    M2C_FIELD(arg0, s32 *, 0x10) = func_02099148(&func_0208808c, M2C_FIELD(temp_r3, s32 *, 0), M2C_FIELD(temp_r3, u16 *, 4), M2C_FIELD(temp_r3, s32 *, 8), (s32) M2C_FIELD(temp_r3, u16 *, 0xC), var_r2);
+    M2C_FIELD(arg0, s32 *, 0x10) = func_02099148(&func_0208808c, M2C_FIELD(temp_r3, s32 *, 0), M2C_FIELD(temp_r3, u16 *, 4),
+                                                 M2C_FIELD(temp_r3, s32 *, 8), (s32) M2C_FIELD(temp_r3, u16 *, 0xC), var_r2);
 }

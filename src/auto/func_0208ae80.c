@@ -12,11 +12,11 @@ void func_0208ae80(void *arg0, void *arg1) {
             return;
         }
         M2C_FIELD(arg0, s32 *, 0x598) = 3;
-        M2C_FIELD(arg0, s32 *, 8) = 0;
+        M2C_FIELD(arg0, s32 *, 8)     = 0;
         func_02088834(arg0, 2);
         return;
     }
     M2C_FIELD(arg0, s32 *, 0x598) = 3;
-    M2C_FIELD(arg0, s32 *, 8) = 0;
+    M2C_FIELD(arg0, s32 *, 8)     = 0;
     func_02088834(arg0, 2);
 }

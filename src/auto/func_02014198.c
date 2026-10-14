@@ -24,7 +24,7 @@ void func_02014198(s32 arg0, void *arg1) {
     func_02014870();
     func_01ffb558(2);
     temp_r0 = func_02064fc8(0x50);
-    var_r1 = temp_r0;
+    var_r1  = temp_r0;
     if (var_r1 != 0) {
         var_r1 = func_0200d934(temp_r0, M2C_FIELD(arg1, s32 *, 0), M2C_FIELD(arg1, s32 *, 4), M2C_FIELD(arg1, u8 *, 0xD));
     }

@@ -10,7 +10,8 @@ s32 func_02010708(void *arg0, void *arg1) {
     s32 var_r4;
 
     func_020106a4();
-    if ((M2C_FIELD(arg0, s32 *, 0x778) == 1) && (temp_r0 = M2C_FIELD(arg1, s32 *, 4), (temp_r0 != 0x44)) && (temp_r0 != 0x3C)) {
+    if ((M2C_FIELD(arg0, s32 *, 0x778) == 1) && (temp_r0 = M2C_FIELD(arg1, s32 *, 4), (temp_r0 != 0x44)) &&
+        (temp_r0 != 0x3C)) {
         var_r4 = 0;
         func_02010454(arg0);
     } else {

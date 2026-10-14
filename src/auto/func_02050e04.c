@@ -10,8 +10,8 @@ s32 func_02050e04(void *arg0, void *arg1) {
     s32 var_r4;
 
     temp_lr = M2C_FIELD(arg1, s32 *, 4);
-    var_r2 = 0;
-    var_r4 = 0;
+    var_r2  = 0;
+    var_r4  = 0;
     if (temp_lr != 0x43) {
         temp_ip = M2C_FIELD(arg0, s32 *, 0x180);
         if (temp_ip <= 0x196) {
@@ -33,7 +33,7 @@ s32 func_02050e04(void *arg0, void *arg1) {
             goto block_13;
         }
         if (temp_ip == 0x1B0) {
-block_13:
+        block_13:
             var_r2 = 0;
             if (temp_lr == 0xB) {
                 var_r4 = 1;
@@ -41,7 +41,7 @@ block_13:
                 var_r4 = 0;
             }
         } else {
-block_17:
+        block_17:
             var_r2 = func_020096d4(arg0, arg1);
         }
     }

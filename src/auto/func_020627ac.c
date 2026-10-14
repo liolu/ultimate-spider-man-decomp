@@ -16,7 +16,7 @@ void func_020627ac(void *arg0) {
 
     temp_r5 = func_02059a88(arg0 + 0x1D4);
     temp_r0 = func_02059a78(arg0 + 0x1D4);
-    var_r2 = M2C_FIELD(temp_r5, s32 *, 0) - M2C_FIELD(temp_r0, s32 *, 0);
+    var_r2  = M2C_FIELD(temp_r5, s32 *, 0) - M2C_FIELD(temp_r0, s32 *, 0);
     if (var_r2 < 0) {
         var_r2 = 0 - var_r2;
     }

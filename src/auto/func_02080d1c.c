@@ -9,12 +9,12 @@ void func_02080d1c(void *arg0) {
 
     temp_r0 = M2C_FIELD(func_0208bfbc(), s32 *, 8);
     switch (temp_r0) {                              /* irregular */
-    case 3:
-        M2C_FIELD(arg0, s32 *, 4) = 5;
-        return;
-    case 1:
-        func_0208bfbc();
-        func_0208bc6c();
-        return;
+        case 3:
+            M2C_FIELD(arg0, s32 *, 4) = 5;
+            return;
+        case 1:
+            func_0208bfbc();
+            func_0208bc6c();
+            return;
     }
 }

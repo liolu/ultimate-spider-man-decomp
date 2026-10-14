@@ -17,7 +17,7 @@ void *func_020817d8(void *arg0) {
     } else {
         var_r0 = func_02081f48(&data_02150bb8, 0);
     }
-    var_r3 = M2C_FIELD(var_r0, s32 *, 0x4C) - M2C_FIELD(arg0, s32 *, 0x4C);
+    var_r3  = M2C_FIELD(var_r0, s32 *, 0x4C) - M2C_FIELD(arg0, s32 *, 0x4C);
     temp_r2 = M2C_FIELD(var_r0, s32 *, 0x50) - M2C_FIELD(arg0, s32 *, 0x50);
     if (var_r3 < 0) {
         var_r3 = 0 - var_r3;

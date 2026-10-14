@@ -7,13 +7,13 @@ void func_020278a0(void *arg0) {
     u32 temp_r1_2;
 
     temp_r1 = M2C_FIELD(arg0, u32 *, 0x50);
-    var_r1 = (s32) (temp_r1 + (temp_r1 >> 0x1F)) >> 1;
+    var_r1  = (s32) (temp_r1 + (temp_r1 >> 0x1F)) >> 1;
     if (var_r1 > 0x8000) {
         var_r1 = 0x8000;
     }
     M2C_FIELD(arg0, s32 *, 0x14) = var_r1;
-    temp_r1_2 = M2C_FIELD(arg0, u32 *, 0x54);
-    var_r1_2 = (s32) (temp_r1_2 + (temp_r1_2 >> 0x1F)) >> 1;
+    temp_r1_2                    = M2C_FIELD(arg0, u32 *, 0x54);
+    var_r1_2                     = (s32) (temp_r1_2 + (temp_r1_2 >> 0x1F)) >> 1;
     if (var_r1_2 > 0x6000) {
         var_r1_2 = 0x6000;
     }

@@ -5,7 +5,7 @@ void func_0209ef54(void *arg0) {
 
     temp_r2 = M2C_FIELD(arg0, s32 **, 0x148);
     if (temp_r2 != NULL) {
-        *temp_r2 = 0;
+        *temp_r2                       = 0;
         M2C_FIELD(arg0, s32 **, 0x148) = NULL;
     }
     M2C_FIELD(arg0, volatile s32 *, 0x10C) = (s32) (M2C_FIELD(arg0, volatile s32 *, 0x10C) & ~1);

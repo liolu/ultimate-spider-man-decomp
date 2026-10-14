@@ -16,7 +16,7 @@ s32 func_02098008(s32 arg0, s32 arg1, s32 arg2, s32 arg3, u16 arg4, u16 arg5, u1
     u16 var_r5;
     void *temp_r4;
 
-    var_r5 = 1;
+    var_r5  = 1;
     temp_r4 = M2C_FIELD(func_02097290(), void **, 4);
     temp_r0 = func_02097170(2, 9, 0xA);
     if (temp_r0 != 0) {

@@ -6,7 +6,7 @@ s32 func_02064f80(s32 arg0) {
     u8 temp_r0;
 
     temp_r0 = arg0 + 0xF7;
-    var_r0 = 0;
+    var_r0  = 0;
     if ((u32) temp_r0 > 0x17U) {
         return 0;
     }

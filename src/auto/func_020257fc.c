@@ -10,9 +10,10 @@ void func_020257fc(s32 arg0, void *arg1) {
     s32 var_r1;
 
     temp_r0 = func_02064fc8(0x138);
-    var_r1 = temp_r0;
+    var_r1  = temp_r0;
     if (var_r1 != 0) {
-        var_r1 = func_0202563c(temp_r0, M2C_FIELD(arg1, s32 *, 4), M2C_FIELD(arg1, s32 *, 0), M2C_FIELD(arg1, s32 *, 8), M2C_FIELD(arg1, s32 *, 0xC), 1);
+        var_r1 = func_0202563c(temp_r0, M2C_FIELD(arg1, s32 *, 4), M2C_FIELD(arg1, s32 *, 0), M2C_FIELD(arg1, s32 *, 8),
+                               M2C_FIELD(arg1, s32 *, 0xC), 1);
     }
     func_0202f358(arg0 + 0x18, var_r1, 1);
 }

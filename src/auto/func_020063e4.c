@@ -8,7 +8,7 @@ void func_020063e4(void *arg0, s32 arg1) {
     s32 var_r4;
 
     temp_r2 = M2C_FIELD(arg0, s32 *, 0x20);
-    var_r4 = arg1;
+    var_r4  = arg1;
     if (temp_r2 != 0) {
         if (var_r4 <= 0) {
             var_r4 = 0;

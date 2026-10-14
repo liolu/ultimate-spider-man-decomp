@@ -11,7 +11,7 @@ void func_02094c9c(void *arg0) {
         return;
     }
     do {
-        temp_r0 = func_02094c28(arg0);
+        temp_r0                      = func_02094c28(arg0);
         M2C_FIELD(temp_r0, s32 *, 8) = 0;
         M2C_FIELD(temp_r0, s32 *, 4) = 0;
         func_020942d8();

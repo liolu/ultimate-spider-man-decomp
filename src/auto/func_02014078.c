@@ -16,7 +16,7 @@ void func_02014078(M2C_UNK arg0, M2C_UNK arg1) {
     func_02013e64(arg0, 1);
     func_01ffb558(2);
     temp_r0 = func_02064fc8(0x14);
-    var_r1 = temp_r0;
+    var_r1  = temp_r0;
     if (var_r1 != 0) {
         var_r1 = func_0206985c(temp_r0, arg1);
     }

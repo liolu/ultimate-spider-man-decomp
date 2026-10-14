@@ -16,14 +16,14 @@ void func_02070218(void) {
     s32 temp_r0_4;
 
     if ((s32) data_021483a4 < (s32) data_021483a0) {
-        temp_r0 = data_021483a4 + data_0214839c;
+        temp_r0       = data_021483a4 + data_0214839c;
         data_021483a4 = temp_r0;
         if (temp_r0 > (s32) data_021483a0) {
             data_021483a4 = data_021483a0;
         }
         func_02091518(0x0400006C, data_021483a4);
     } else if ((s32) data_021483a4 > (s32) data_021483a0) {
-        temp_r0_2 = data_021483a4 - data_0214839c;
+        temp_r0_2     = data_021483a4 - data_0214839c;
         data_021483a4 = temp_r0_2;
         if (temp_r0_2 < (s32) data_021483a0) {
             data_021483a4 = data_021483a0;
@@ -31,7 +31,7 @@ void func_02070218(void) {
         func_02091518(0x0400006C, data_021483a4);
     }
     if ((s32) data_02148398 < (s32) data_02148394) {
-        temp_r0_3 = data_02148398 + data_021483a8;
+        temp_r0_3     = data_02148398 + data_021483a8;
         data_02148398 = temp_r0_3;
         if (temp_r0_3 > (s32) data_02148394) {
             data_02148398 = data_02148394;
@@ -42,7 +42,7 @@ void func_02070218(void) {
     if ((s32) data_02148398 <= (s32) data_02148394) {
         return;
     }
-    temp_r0_4 = data_02148398 - data_021483a8;
+    temp_r0_4     = data_02148398 - data_021483a8;
     data_02148398 = temp_r0_4;
     if (temp_r0_4 < (s32) data_02148394) {
         data_02148398 = data_02148394;

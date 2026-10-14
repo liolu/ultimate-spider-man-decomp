@@ -12,14 +12,14 @@ void func_0200c268(void *arg0, void *arg1) {
     }
     temp_r0 = M2C_FIELD(arg1, s32 *, 4);
     switch (temp_r0) {                              /* irregular */
-    case 1:
-        M2C_FIELD(arg0, s32 *, 0x14) = 0;
-        return;
-    case 0:
-        if (((s32) M2C_FIELD(arg0, s32 *, 0x14) > 0) && (func_0200d4b0(arg0 + 4) == 7)) {
+        case 1:
             M2C_FIELD(arg0, s32 *, 0x14) = 0;
-        }
-        func_0200d4c8(arg0 + 4, M2C_FIELD(arg1, s32 *, 8));
-        return;
+            return;
+        case 0:
+            if (((s32) M2C_FIELD(arg0, s32 *, 0x14) > 0) && (func_0200d4b0(arg0 + 4) == 7)) {
+                M2C_FIELD(arg0, s32 *, 0x14) = 0;
+            }
+            func_0200d4c8(arg0 + 4, M2C_FIELD(arg1, s32 *, 8));
+            return;
     }
 }
