@@ -1,2 +1,110 @@
     .text       start:0x01ff8000 end:0x01fff9b8 kind:code align:32
     .bss        start:0x01fff9c0 end:0x01fff9c0 kind:bss align:32
+
+src/auto/func_01ff9e94.c:
+    complete
+    .text       start:0x01ff9e94 end:0x01ff9ea0
+
+src/auto/func_01ff9ea0.c:
+    complete
+    .text       start:0x01ff9ea0 end:0x01ff9eac
+
+src/auto/func_01ffaf9c.c:
+    complete
+    .text       start:0x01ffaf9c end:0x01ffafa4
+
+src/auto/func_01ffbbc8.c:
+    complete
+    .text       start:0x01ffbbc8 end:0x01ffbbd4
+
+src/auto/func_01ffcd24.c:
+    complete
+    .text       start:0x01ffcd24 end:0x01ffcd30
+
+src/auto/func_01ffcd30.c:
+    complete
+    .text       start:0x01ffcd30 end:0x01ffcd3c
+
+src/auto/func_01ffd294.c:
+    complete
+    .text       start:0x01ffd294 end:0x01ffd2a0
+
+src/auto/func_01ffd2a0.c:
+    complete
+    .text       start:0x01ffd2a0 end:0x01ffd2ac
+
+src/auto/func_01ffd2ac.c:
+    complete
+    .text       start:0x01ffd2ac end:0x01ffd2b8
+
+src/auto/func_01ffd2b8.c:
+    complete
+    .text       start:0x01ffd2b8 end:0x01ffd2c4
+
+src/auto/func_01ffd2c4.c:
+    complete
+    .text       start:0x01ffd2c4 end:0x01ffd2d0
+
+src/auto/func_01ffd2d0.c:
+    complete
+    .text       start:0x01ffd2d0 end:0x01ffd2dc
+
+src/auto/func_01ffd2dc.c:
+    complete
+    .text       start:0x01ffd2dc end:0x01ffd2e8
+
+src/auto/func_01ffd2e8.c:
+    complete
+    .text       start:0x01ffd2e8 end:0x01ffd2f4
+
+src/auto/func_01ffd2f4.c:
+    complete
+    .text       start:0x01ffd2f4 end:0x01ffd300
+
+src/auto/func_01ffd300.c:
+    complete
+    .text       start:0x01ffd300 end:0x01ffd30c
+
+src/auto/func_01ffd30c.c:
+    complete
+    .text       start:0x01ffd30c end:0x01ffd318
+
+src/auto/func_01ffd318.c:
+    complete
+    .text       start:0x01ffd318 end:0x01ffd324
+
+src/auto/func_01ffd324.c:
+    complete
+    .text       start:0x01ffd324 end:0x01ffd330
+
+src/auto/func_01ffd330.c:
+    complete
+    .text       start:0x01ffd330 end:0x01ffd33c
+
+src/auto/func_01ffd33c.c:
+    complete
+    .text       start:0x01ffd33c end:0x01ffd348
+
+src/auto/func_01ffd348.c:
+    complete
+    .text       start:0x01ffd348 end:0x01ffd354
+
+src/auto/func_01ffd3fc.c:
+    complete
+    .text       start:0x01ffd3fc end:0x01ffd408
+
+src/auto/func_01ffda10.c:
+    complete
+    .text       start:0x01ffda10 end:0x01ffda1c
+
+src/auto/func_01ffdae8.c:
+    complete
+    .text       start:0x01ffdae8 end:0x01ffdaf4
+
+src/auto/func_01ffdbc0.c:
+    complete
+    .text       start:0x01ffdbc0 end:0x01ffdbcc
+
+src/auto/func_01ffe2cc.c:
+    complete
+    .text       start:0x01ffe2cc end:0x01ffe2d8
