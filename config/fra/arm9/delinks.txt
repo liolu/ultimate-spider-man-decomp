@@ -23,6 +23,10 @@ src/auto/func_02000a14.c:
     complete
     .text       start:0x02000a14 end:0x02000afc
 
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000afc end:0x02000b20
+
 src/auto/main.c:
     complete
     .text       start:0x02000b20 end:0x02000dd4
