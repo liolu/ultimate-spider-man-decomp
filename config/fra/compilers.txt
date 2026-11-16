@@ -1302,3 +1302,6 @@ src/auto/func_020871dc.c 1.2/sp2p3
 src/auto/func_02087240.c 1.2/sp2p3
 src/auto/func_0208ba3c.c 1.2/sp2p3
 src/auto/func_0208c41c.c 1.2/sp2p3
+src/auto/func_0207d838.c 2.0/sp1p5 -flag no-opt_rebuildconditionals
+src/auto/func_02083d1c.c 1.2/sp2p3 -O4,s
+src/auto/func_02094748.c 1.2/sp2p3 -O4,s
