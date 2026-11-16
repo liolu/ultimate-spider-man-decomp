@@ -11736,3 +11736,15 @@ src/auto/func_02083d1c.c:
 src/auto/func_02094748.c:
     complete
     .text       start:0x02094748 end:0x02094778
+
+src/auto/func_02030d30.c:
+    complete
+    .text       start:0x02030d30 end:0x02030d8c
+
+src/auto/func_020595e4.c:
+    complete
+    .text       start:0x020595e4 end:0x02059628
+
+src/auto/func_020632d0.c:
+    complete
+    .text       start:0x020632d0 end:0x02063338
